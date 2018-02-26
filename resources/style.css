@@ -70,8 +70,8 @@ width: 240px;
 .mother {
    display: flex;
    background-image: url("images/img-story-main.png");
+   height: 300px;
+
 }
 .mainstory {
-  flex-grow: 4;
-
 }
