@@ -38,10 +38,16 @@ color: black;
 
 .content {
   display: flex;
+  justify-content: space-between;
+}
+.content h3 {
+  color: black;
+  font-size: 20px;
 }
 .leftcolumn{
 border: solid black 1px;
 width: 630px;
+height: auto;
 }
 
 .middlecolumn {
@@ -61,7 +67,11 @@ width: 240px;
 .research {
   border: solid black 1px;
 }
-.content h3 {
-  color: black;
-  font-size: 20px;
+.mother {
+   display: flex;
+   background-image: url("images/img-story-main.png");
+}
+.mainstory {
+  flex-grow: 4;
+
 }
