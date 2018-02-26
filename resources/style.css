@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h3 {
+display: inline-flex;
+font-size: 14px;
+color: MediumAquamarine;
+flex-grow: 2;
+margin-left: 15px;
+}
+
+.nav a {
+color: black;
+}
+
+.nav li {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 25px;
+}
