@@ -39,6 +39,9 @@ color: black;
 .content {
   display: flex;
   justify-content: space-between;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .content h3 {
   color: black;
@@ -48,30 +51,63 @@ color: black;
 border: solid black 1px;
 width: 630px;
 height: auto;
+display: flex;
+flex-direction: column;
 }
 
 .middlecolumn {
 border: solid black 1px;
 width: 300px;
+display: flex;
+flex-direction: column;
 }
 .rightcolumn {
 border: solid black 1px;
 width: 240px;
+display: flex;
+flex-direction: column;
 }
 
 /*....News Stories....*/
 
 .orca
 .burger
-.earth
 .research {
   border: solid black 1px;
 }
-.mother {
-   display: flex;
-   background-image: url("images/img-story-main.png");
-   height: 300px;
 
+.mother {
 }
+
 .mainstory {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  background-image: url("images/img-story-main.png");
+  height: 300px;
 }
+
+.earth {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-image: url("images/img-story-2.png");
+  height: 300px;
+}
+
+.research {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-image: url("images/img-story-3.png");
+  height: 300px;
+}
+
+
+.cats
