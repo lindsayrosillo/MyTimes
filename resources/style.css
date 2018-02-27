@@ -48,33 +48,23 @@ color: black;
   font-size: 20px;
 }
 .leftcolumn{
-border: solid black 1px;
 width: 630px;
-height: auto;
 display: flex;
 flex-direction: column;
 }
 
 .middlecolumn {
-border: solid black 1px;
 width: 300px;
 display: flex;
 flex-direction: column;
 }
 .rightcolumn {
-border: solid black 1px;
 width: 240px;
 display: flex;
 flex-direction: column;
 }
 
 /*....News Stories....*/
-
-.orca
-.burger
-.research {
-  border: solid black 1px;
-}
 
 .mother {
 }
@@ -88,24 +78,43 @@ flex-direction: column;
   background-image: url("images/img-story-main.png");
   height: 300px;
 }
-
+.leftstories {
+  display: flex;
+  flex-flow: row wrap;
+}
+.orca {
+  flex: 1;
+  min-width: 300px;
+}
+.burger {
+  flex: 1;
+  min-width: 300px;
+}
 .earth {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  order: 3;
+  height: 300px;
   text-align: center;
   background-image: url("images/img-story-2.png");
-  height: 300px;
+  flex: 1;
+  min-width: 300px;
 }
 
 .research {
-  font-family: Georgia;
+ font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  flex: 1;
+  order: 4;
   text-align: center;
   background-image: url("images/img-story-3.png");
+  min-width: 300px;
   height: 300px;
 }
 
